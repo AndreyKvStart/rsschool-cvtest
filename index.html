@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CV Andrii Kvitkovskyi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1><strong>Andrii Kvitkovskyi</strong></h1>
+        <h2>Junior Frontend Developer</h2>
+    </header>
+
+    <main class="main">
+        <div class="contacts" id="contacts">
+            <p class="contactsHeader"><strong>Contacts</strong></p>
+            <ul>
+                <li><strong>Location:</strong> Myszkow, Poland</li>
+                <li><strong>Phone:</strong> +48579319100</li>
+                <li><strong>Email: </strong><a href="mailto: y6andrey@gmail.com">
+                        <strong>y6andrey@gmail.com</strong></a>
+                </li>
+                <li><strong>Discord:</strong> AndreyKv#7348</li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/AndreyKvStart"
+                        target="_blank">AndreyKvStart</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="aboutMe" id="aboutMe">
+            <p class="sectionHeader"><strong>About Me</strong></p>
+            <p> An engineer with a solid background in design and
+                monitoring of manufacturing of designed items.
+                Experience in improvement of production processes.
+                Experience in modernization and development of
+                manufacture. Experience in improvement of production
+                quality. 20+ years experience of work substantially
+                as the Design Engineer with using of 3-D modelling
+                (mostly SolidWorks).
+                I already have some programming skills and I have used
+                programming at my previous jobs. I have decided to
+                become a professional programmer.
+            </p>
+        </div>
+        <hr>
+        <div class="skills" id="skills">
+            <p class="sectionHeader"><strong>Skills</strong></p>
+            <ul>
+                <li>C#</li>
+                <li>Autolisp</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (Basic)</li>
+                <li>PHP (Basic)</li>
+                <li>Git, GitHub</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="code" id="code">
+            <p class="sectionHeader"><strong>Code Example</strong></p>
+            <pre class="codeExample"><code>function sum(a, b) {
+            return a + b;
+            }
+             </code></pre>
+        </div>
+        <hr>
+        <div class="experience" id="experience">
+            <p class="sectionHeader"><strong>Previous experience:</strong></p>
+            <p>20+ years experience of work substantially as the Design
+                Engineer with using of 3-D modelling (mostly SolidWorks).
+            </p>
+        </div>
+        <div class="projects" id="projects">
+            <p class="sectionHeader"><strong> Project examples:</strong></p>
+            <a href="https://andreykvstart.github.io/rsschool-cv/" target="_blank">
+                <img class="markdown-logo" src="icons/Markdown-mark.svg.png" alt="rs school Markdown CV">
+            </a>
+        </div>
+        <hr>
+        <div class="education" id="education">
+            <p class="sectionHeader"><strong>Education</strong></p>
+            <p class="education">Degree Mechanical Engineer.<br>
+                National University of Shipbuilding (NUS) 1993. Nikolaev, Ukraine.<br>
+                Full-time course, machine-building faculty, ship power installations.<br>
+                During studying at the University was engaged in scientific work
+                (designing of steam generators with usage of computers).</p>
+        </div>
+        <hr>
+        <div class="courses" id="courses">
+            <p><strong>SPECIFIC TECHNICAL EXPERTISE/SPECIALIST COURSES</strong></p>
+            <ul>
+                <li>Special course of 3-D modelling.</li>
+                <li>Practical web design course.</li>
+                <li>Certificate SolidWorks Professional - Mechanical Design -C-US8BFR87KZ. </li>
+                <li>Software testing course / certificate.</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="languages" id="languages">
+            <p class="sectionHeader"><strong>Languages</strong></p>
+            <ul>
+                <li>English - Upper Intermediate (I have extended experience (3+ years)
+                    of communication with native speakers (mostly USA residents)
+                    during my previous remote job.
+                </li>
+                <li>Ukrainian (Native).</li>
+                <li>Russian (Native).</li>
+            </ul>
+        </div>
+    </main>
+
+    <nav class="sidebar">
+        <div class="sidebar-photo">
+            <img src="images/my-photo.jpg" alt="My photo">
+            <div sidebar-photo div><strong>Andrii Kvitkovskyi</strong>
+                Junior Frontend Developer</div>
+        </div>
+        <hr>
+        <div class="sidebar-link" onclick="selectText('contacts')">
+            <img src="icons/contact-book.svg" alt="Link to the Contacts section">
+            <div>Contacts</div>
+        </div>
+        <div class="sidebar-link" onclick="selectText('aboutMe')">
+            <img src="icons/about-me.svg" alt="Link to the Experience About Me section">
+            <div>About Me</div>
+        </div>
+        <div class="sidebar-link" onclick="selectText('skills')">
+            <img src="icons/web-development.svg" alt="Link to the Skills section">
+            <div>Skills</div>
+        </div>
+        <div class="sidebar-link" onclick="selectText('code')">
+            <img src="icons/code.svg" alt="Link to the Code section">
+            <div>Code Example</div>
+        </div>
+        <div class="sidebar-link" onclick="selectText('experience')">
+            <img src="icons/experience.svg" alt="Link to the Experience section">
+            <div>Previous experience</div>
+        </div>
+        <div class="sidebar-link" onclick="selectText('projects')">
+            <img src="icons/growth.svg" alt="Link to the Projects section">
+            <div>Projects</div>
+        </div>
+        <div class="sidebar-link" onclick="selectText('education')">
+            <img src="icons/education-cap.svg" alt="Link to the Education section">
+            <div>Education</div>
+        </div>
+        </div>
+        <div class="sidebar-link" onclick="selectText('courses')">
+            <img src="icons/education-program.svg" alt="Link to the Courses section">
+            <div>Courses</div>
+        </div>
+        <div class="sidebar-link" onclick="selectText('languages')">
+            <img src="icons/languages.svg" alt="Link to the Languages section">
+            <div>Languages</div>
+        </div>
+    </nav>
+
+    <footer class="footer">
+        <div class="left-section">
+            <a href="https://github.com/AndreyKvStart" target="_blank">
+                <img class="github" src="icons/GitHub-logo.png" alt="GitHub logo">
+            </a>
+        </div>
+        <div class="middle-section">
+            <p>© october, 2022<br />
+                A.Kvitkovskyi</p>
+        </div>
+        <div class="right-section">
+            <a href="https://rs.school/" target="_blank">
+                <img class="rsschool-logo" src="icons/rs_school.svg" alt="rs school logo">
+            </a>
+    </footer>
+    <script src="/JS/script.js"></script>
+</body>
+
+</html>
